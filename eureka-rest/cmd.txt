@@ -1,1 +1,5 @@
+# ×¢²á
 cat ./rest-api-test.xml | curl -v -X POST -H "Content-type: application/xml" -d @- http://10.121.198.228:8761/eureka/apps/rest-api-test
+
+# É¾³ý
+curl -v -X DELETE http://10.121.198.228:8761/eureka/apps/rest-api-test/baichen:rest-api-test:9000
