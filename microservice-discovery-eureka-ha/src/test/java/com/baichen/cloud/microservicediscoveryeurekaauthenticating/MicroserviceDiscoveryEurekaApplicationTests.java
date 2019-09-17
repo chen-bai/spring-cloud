@@ -1,4 +1,4 @@
-package com.baichen.cloud.microservicediscoveryeureka;
+package com.baichen.cloud.microservicediscoveryeurekaauthenticating;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
