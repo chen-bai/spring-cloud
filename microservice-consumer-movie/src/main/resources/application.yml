@@ -3,6 +3,10 @@ server:
 spring:
   application:
     name: microservice-consumer-movie
+#  cloud:
+#    service-registry:
+#      auto-registration:
+#        enabled: false
 eureka:
   client:
     service-url:
