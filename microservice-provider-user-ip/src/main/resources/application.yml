@@ -1,6 +1,11 @@
 server:
   port: 8000
 spring:
+  cloud:
+    inetutils:
+      ignored-interfaces:
+        - docker0
+        - veth.*
   application:
     name: microservice-provider-user
   jpa:
@@ -36,6 +41,6 @@ info:
 eureka:
   client:
     service-url:
-     defaultZone: http://peer1:8761/eureka/,http://peer2:8761/eureka/
+     defaultZone: http://localhost:8761/eureka/
   instance:
     prefer-ip-address: true
