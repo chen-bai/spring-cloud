@@ -10,3 +10,7 @@ spring:
 microservice-provider-user:
   ribbon:
     listOfServers: localhost:8000,localhost:8001
+#ribon:
+#  eager-load:
+#    enabled: true
+#    clients: client1,client2
