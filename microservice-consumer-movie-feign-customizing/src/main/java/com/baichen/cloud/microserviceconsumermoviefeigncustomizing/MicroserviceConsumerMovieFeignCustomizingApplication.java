@@ -7,6 +7,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableFeignClients
+//@EnableFeignClients(defaultConfiguration = DefaultRibbonConfig.class)
 @EnableDiscoveryClient
 public class MicroserviceConsumerMovieFeignCustomizingApplication {
 
