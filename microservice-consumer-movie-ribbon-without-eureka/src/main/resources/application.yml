@@ -14,3 +14,6 @@ microservice-provider-user:
 #  eager-load:
 #    enabled: true
 #    clients: client1,client2
+
+#<clientName>.ribbon.NIWSServerListClassName=com.netflix.loadbalancer.ConfigurationBasedServerList
+#<clientName>.ribbon.listOfServers=localhost:8000,localhost:8001
