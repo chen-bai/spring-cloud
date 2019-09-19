@@ -13,3 +13,7 @@ eureka:
       defaultZone:  http://localhost:8761/eureka/
   instance:
     prefer-ip-address: true
+logging:
+  level:
+    # 将Feign接口的日志级别设置成DEBUG，因为Feigh的Logger.Level只对DEBUG做出响应
+    com.baichen.cloud.microserviceconsumermoviefeignlogging.user.feign.UserFeignClient: DEBUG
